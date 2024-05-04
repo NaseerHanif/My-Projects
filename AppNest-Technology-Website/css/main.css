@@ -1,0 +1,69 @@
+/* body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+} */
+/* navigation bar style for css ----start---- */
+#logo{
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 50% !important;
+}
+a.nav-link {
+    font-size:20px;
+    padding:10px 20px !important;
+}
+nav#navbar {
+    padding:0px !important
+}
+.button{
+    padding: 8px 24px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-left: 120px;
+}
+/* navigation bar style for css ----end---- */
+/* header section style for css ---start */
+.headerh1{
+    font-size: 55px;
+}
+.hbutton{
+    font-size: 16px;
+    background-color: #c52031;
+    color: #fff;
+    padding: 12px 24px;
+    border: none !important;
+    margin-top: 20px;
+}
+/* header section style for css ---end---- */
+/* Trusted by 75,000+ restaurants section start */
+.trustedby{
+    font-size: 32px;
+}
+.span{
+    font-weight: 600;
+}
+/* Schedule a free demo section style --start--- */
+.stars{
+    color: red;
+}
+.submitbtn{
+    font-size: 16px;
+    background-color: #c52031;
+    color: #fff;
+    padding: 8px 24px;
+    border: none !important;
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+/* pricing section stule for css ---start---- */
+.pricingbutton{
+    font-size: 16px;
+    background-color: #c52031;
+    color: #fff;
+    padding: 12px 24px;
+    border: none !important;
+    margin-top: 20px;
+    border-radius: 10px;
+}
