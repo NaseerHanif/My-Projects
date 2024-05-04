@@ -1,34 +1,39 @@
-/* body{
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-} */
-/* navigation bar style for css ----start---- */
-#logo{
+/* Reset styles */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation bar styles */
+#logo {
     height: 100px !important;
     width: 100px !important;
     border-radius: 50% !important;
 }
+
 a.nav-link {
-    font-size:20px;
-    padding:10px 20px !important;
+    font-size: 20px;
+    padding: 10px 20px !important;
 }
+
 nav#navbar {
-    padding:0px !important
+    padding: 0 !important;
 }
-.button{
+
+.button {
     padding: 8px 24px;
     font-size: 16px;
     background-color: transparent;
     border: 1px solid #000;
     margin-left: 120px;
 }
-/* navigation bar style for css ----end---- */
-/* header section style for css ---start */
-.headerh1{
+
+/* Header section styles */
+.headerh1 {
     font-size: 55px;
 }
-.hbutton{
+
+.hbutton {
     font-size: 16px;
     background-color: #c52031;
     color: #fff;
@@ -36,29 +41,33 @@ nav#navbar {
     border: none !important;
     margin-top: 20px;
 }
-/* header section style for css ---end---- */
-/* Trusted by 75,000+ restaurants section start */
-.trustedby{
+
+/* Trusted by section */
+.trustedby {
     font-size: 32px;
 }
-.span{
+
+.span {
     font-weight: 600;
 }
-/* Schedule a free demo section style --start--- */
-.stars{
+
+/* Schedule a free demo section styles */
+.stars {
     color: red;
 }
-.submitbtn{
+
+.submitbtn {
     font-size: 16px;
     background-color: #c52031;
     color: #fff;
     padding: 8px 24px;
     border: none !important;
     margin-top: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
-/* pricing section stule for css ---start---- */
-.pricingbutton{
+
+/* Pricing section styles */
+.pricingbutton {
     font-size: 16px;
     background-color: #c52031;
     color: #fff;
@@ -66,4 +75,16 @@ nav#navbar {
     border: none !important;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+/* Mobile screen styles */
+@media (max-width: 576px) {
+    /* Header section for mobile */
+    h1.headerh1 {
+        font-size: 40px !important;
+    }
+
+    .headerimg {
+        margin-top: 20px !important;
+    }
 }
