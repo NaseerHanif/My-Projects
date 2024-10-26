@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Responsive Testimonial Section</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+    <style>
+        .single-testimonial-item img {
+        width: 100%;
+        transition: opacity 0.3s ease; /* Smooth transition for the opacity */
+    }
+
+    /* Hover effect for the overlay */
+    .single-testimonial-item:hover img {
+        opacity: 0.6; /* Adjust the opacity as needed */
+        background-color: rgba(173, 216, 230, 0.5); /* Light blue with opacity */
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel client-testimonial-carousel">
+                        <div class="single-testimonial-item">
+                            <img src="https://assets.cdn.filesafe.space/QOqUlYyU0LP8kpIRWfiE/media/66f508daf0f22456002bd8f0.jpeg" alt="">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="https://assets.cdn.filesafe.space/QOqUlYyU0LP8kpIRWfiE/media/66f508daf0f22456002bd8f0.jpeg" alt="">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="https://assets.cdn.filesafe.space/QOqUlYyU0LP8kpIRWfiE/media/66f508daf0f22456002bd8f0.jpeg" alt="">
+                        </div>
+                        <div class="single-testimonial-item">
+                            <img src="https://assets.cdn.filesafe.space/QOqUlYyU0LP8kpIRWfiE/media/66f508daf0f22456002bd8f0.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                items: 1, // Default items
+                margin: 20,
+                loop: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1 // 1 item on mobile
+                    },
+                    768: {
+                        items: 2 // 2 items on tablet
+                    },
+                    1000: {
+                        items: 3 // 3 items on larger screens
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
